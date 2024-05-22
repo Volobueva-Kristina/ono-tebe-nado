@@ -178,7 +178,8 @@
 }
 
 .lots__card-list-item {
-  flex: 1;
+  flex-grow: 1;
+  min-height: 563px;
 }
 .lots__card-list-item:hover .overlay {
   opacity: 0.8;
